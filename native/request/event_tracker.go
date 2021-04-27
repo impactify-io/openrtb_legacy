@@ -3,7 +3,7 @@ package request
 import (
 	"encoding/json"
 
-	"github.com/mxmCherry/openrtb/native"
+	"github.com/thomasdseao/openrtb/native"
 )
 
 // 4.7 Event Trackers Request Object
