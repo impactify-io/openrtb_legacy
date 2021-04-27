@@ -276,4 +276,20 @@ type Bid struct {
 	// Description:
 	//   Placeholder for bidder-specific extensions to OpenRTB
 	Ext json.RawMessage `json:"ext,omitempty"`
+
+  // Attribute:
+	//   hash
+	// Type:
+	//   string
+	// Description:
+	//   This is a secured hash to prevent fraud on callback win function
+	Hash string `json:"hash,omitempty"`
+
+	// Attribute:
+	//   expiry
+	// Type:
+	//   string
+	// Description:
+	//   This is a expiry timestamp
+	Expiry int64 `json:"expiry,omitempty"`
 }
