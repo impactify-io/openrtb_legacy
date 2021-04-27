@@ -208,4 +208,12 @@ type BidRequest struct {
 	// Description:
 	//   Placeholder for exchange-specific extensions to OpenRTB.
 	Ext json.RawMessage `json:"ext,omitempty"`
+
+  // Attribute:
+	//   uids
+	// Type:
+	//   string
+	// Description:
+	//   The uids of user sync
+	Uids string `json:"uids,omitempty"`
 }
