@@ -7,7 +7,7 @@ package request
 import (
 	"encoding/json"
 
-	"github.com/thomasdseao/openrtb/native"
+	"github.com/impactify-io/openrtb_legacy/native"
 )
 
 // 4.1 Native Markup Request Object

@@ -3,7 +3,7 @@ package response
 import (
 	"encoding/json"
 
-	"github.com/thomasdseao/openrtb/native"
+	"github.com/impactify-io/openrtb_legacy/native"
 )
 
 // 5.8 Event Tracker Response Object

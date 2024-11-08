@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	. "github.com/thomasdseao/openrtb/native/response"
+	. "github.com/impactify-io/openrtb_legacy/native/response"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"
