@@ -95,6 +95,14 @@ type Video struct {
 	Placement VideoPlacementType `json:"placement,omitempty"`
 
 	// Attribute:
+	//   plcmt
+	// Type:
+	//   integer
+	// Description:
+	//   DEPRECATED. Use placement instead.
+	Plcmt VideoPlacementType `json:"plcmt,omitempty"`
+
+	// Attribute:
 	//   linearity
 	// Type:
 	//   integer
